@@ -8,17 +8,17 @@
 			<key>NSBackgroundColorName</key>
 			<string>background</string>
 			<key>NSIconName</key>
-			<string>NSTouchBarDocuments</string>
+			<string>NSTouchBarGetInfoOutline</string>
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Google Translate</string>
+				<string>Get Metadata</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
-			<key>NSSendTypes</key>
+			<key>NSSendFileTypes</key>
 			<array>
-				<string>public.utf8-plain-text</string>
+				<string>public.item</string>
 			</array>
 		</dict>
 	</array>

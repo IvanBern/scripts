@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>492</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>335.500000:316.000000</string>
+				<string>309.000000:368.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -159,7 +159,7 @@ end run</string>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Website Popup.action</string>
 				<key>ActionName</key>
-				<string>Website Popup</string>
+				<string>Website Pop-up</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>outputTypeTag</key>
@@ -176,7 +176,7 @@ end run</string>
 					<integer>0</integer>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Website_Popup</string>
+				<string>com.apple.Automator.WebsitePopup</string>
 				<key>CFBundleVersion</key>
 				<string>2.0.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -285,7 +285,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>335.500000:463.000000</string>
+				<string>309.000000:515.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Website Popup.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -295,7 +295,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>B6EFF4C4-8301-462E-87F5-DF9AE4401F0C</key>
+		<key>C711CF18-7DE0-4A66-901F-0F3AC77F89ED</key>
 		<dict>
 			<key>from</key>
 			<string>5F7A3C31-FAF2-409A-AC94-FF97A3E5E272 - 5F7A3C31-FAF2-409A-AC94-FF97A3E5E272</string>
@@ -305,11 +305,27 @@ end run</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>applicationBundleIDsByPath</key>
+		<dict/>
+		<key>applicationPaths</key>
+		<array/>
+		<key>inputTypeIdentifier</key>
+		<string>com.apple.Automator.text</string>
+		<key>outputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>presentationMode</key>
+		<integer>11</integer>
+		<key>processesInput</key>
+		<integer>0</integer>
 		<key>serviceInputTypeIdentifier</key>
 		<string>com.apple.Automator.text</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>systemImageName</key>
+		<string>NSTouchBarDocuments</string>
+		<key>useAutomaticInputType</key>
 		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
