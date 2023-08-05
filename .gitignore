@@ -8,5 +8,5 @@ __pycache__/
 # Ignore log files
 *.log
 # Ignore env files
-.env
+python/openai/.env
 
